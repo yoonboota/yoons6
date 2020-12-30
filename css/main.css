@@ -1,0 +1,332 @@
+@charset "utf-8";
+/*공군사관학교*/
+
+#container{
+
+}
+/*---MainSlider---*/
+
+.mainSlider{
+	position:relative;
+	height:900px;
+	overflow:hidden;	
+}
+.mainSlider img{
+	position:absolute;
+	left:50%;
+	margin-left:-960px;	
+}
+.sliderText{
+	position:absolute;
+	right:50%;
+	margin-right:-291px;
+	bottom:0;
+	margin-bottom:250px;	
+	text-align:center;
+}
+.sliderText div{
+	margin-bottom:45px;
+	color:#333;
+	background:#fff;
+	font-weight:bold;
+	font-size:12px;
+	text-align:center;
+	display:inline-block;
+	padding:0 55px;
+}
+.sliderText span{
+	font-size:17px;
+	color:#999;
+	letter-spacing:1px;	
+	display:block;
+}
+.sliderText h2{
+	font-size:30px;
+	padding-top:30px;
+	letter-spacing:10px;
+	color:#fff;
+}
+
+.sliderLogo{
+	width:260px;
+	height:85px;
+	background:url(../images/mainSlider_Logo.png) no-repeat;
+	text-indent:-9999px; 
+	position:absolute;
+	right:50%;
+	margin-right:-130px;
+	top:50%;
+	margin-top:-42px;	
+}
+.sliderLogo a{}
+
+/*---mainCon01---*/
+
+.mainCon01{
+	padding:20px 0 40px 0;
+}
+.mainCon01 h2{
+	color:#2C4468;
+	padding:20px 0;
+}
+.mainIcon{
+	padding:20px 10px;
+}
+.mainIcon li{
+	float:left;
+	width:150px;
+	height:150px;
+	margin-right:54px;
+	text-align:center;
+	border:1px solid #2C4468;
+	
+}
+.mainIcon li:last-child{
+	margin-right:0;
+}
+
+.mainIcon li:first-child{
+	border:0;
+}
+.mainIcon li a{}
+.mainIcon li span{
+	width:150px;
+	height:70px;
+	display:block;
+	text-indent:-9999px;
+	margin:0 auto;
+}
+.mainIcon li p{
+	color:#2C4468;
+	font-size:14px;
+	height:50px;
+	line-height:110px; 	
+}
+
+.icon01{
+	background:url(../images/university_logo.png) no-repeat center center;	
+}
+
+.icon02{
+	background:url(../images/university_Icon.png) no-repeat center center;
+}
+.icon03{
+	background:url(../images/rocket_Icon.png) no-repeat center center;
+}
+.icon04{
+	background:url(../images/cap_Icon.png) no-repeat center center;
+}
+.icon05{
+	background:url(../images/news_Icon.png) no-repeat center center;
+}
+.icon06{
+	background:url(../images/airplane_Icon.png) no-repeat center center;
+}
+
+/*MainCon02*/
+
+
+.mainCon02{
+	background:url(../images/QNA_image.png) no-repeat;
+	background-size: cover;
+	height:400px;
+	position:relative;
+}
+
+.con02Text{
+	text-align: center;
+	padding-top:120px;
+	
+}
+.con02Text h2{
+	
+}
+.con02Text h2 a{
+	color:#fff;
+	font-size:30px;
+}
+.con02Text p{
+	font-size:18px;
+	color:#E3E3E3;
+	margin:20px 0;
+}
+.con02Text span{
+	font-size:13px;
+	color:#B7B8B7;	
+}
+.sBox{
+	background:url(../images/point_box.png) no-repeat center center;
+	text-indent:-9999px;
+	margin-bottom:20px;	
+}
+
+.pageBtn{
+	position:absolute;
+	right:50%;
+	margin-right:-600px;
+	top:50%;
+	margin-top:-113px;	
+}
+
+.topBtn{
+	background:url(../images/top_arrow.png) no-repeat center center;
+	text-indent:-9999px;
+	margin-bottom:50px;
+}
+.topBtn a{
+	display:block;	
+}
+
+.bottomBtn{
+	background:url(../images/bottom_arrow.png) no-repeat center center;
+	text-indent:-9999px;
+	margin-top:50px;	
+}
+.bottomBtn a{
+	display:block;
+}
+.pageBtn p{
+	font-size:25px;
+	font-weight:bold;
+	color:#A0A2A3;
+}
+.pageBtn span{
+	font-size:25px;
+	font-weight:bold;
+	color:#fff;
+}
+.btnBar{
+	background:url(../images/btnBar.png) no-repeat;
+	text-indent:-9999px;	
+}
+
+/*Banner*/
+
+.mainCon03{
+	padding-bottom:200px;
+}
+.banner{
+	position:absolute;
+	right:50%;
+	margin-right:-600px;
+	margin-top:-50px;
+}
+.banner li{	
+	width:590px;
+	height:200px;
+	float:left;
+	margin-right:10px;
+	text-indent:-9999px;
+	border:1px solid #333;
+}
+.banner li:last-child{
+	margin-right:0;
+}
+
+.banner li a{
+	display:block;	
+}
+
+.bn1{
+	background:url(../images/main_banner01.png) no-repeat;
+	background-size:cover;	
+}
+
+.bn2{
+	background:url(../images/main_banner02.png) no-repeat;
+	background-size:cover;	
+}
+
+/*MainCon04*/
+
+.mainCon04{
+	background:url(../images/bg_content1.png) no-repeat;
+	background-size:cover;
+	padding-bottom:30px; 
+	position:relative;
+
+}
+.con04Text{
+	padding-top:40px;
+	padding-left:30px;
+}
+.con04Text p{
+	font-size:13px;
+	color:#2C4468;
+}
+.con04Text h1{
+	color:#333;
+	font-size:40px;
+	letter-spacing:3px;
+}
+.con04Text span{
+	color:#333;
+	font-size:12px;
+}
+
+.con04Utill{
+	float:right;
+}
+.con04Utill li{
+	float:left;
+	padding-right:20px;
+}
+.con04Utill li a{}
+
+.leftBtn{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-210px; 
+	background:url(../images/left_arrow.png) no-repeat center center;
+	width:45px;
+	height:45px;
+	text-indent:-9999px;
+	background-color:rgba(44,68,104,0.4);
+	border-radius:50%;
+}
+
+.leftBtn a{
+	display:block;
+}
+.rightBtn{
+	position:absolute;
+	top:50%;
+	right:50%;
+	margin-right:-650px;
+	background:url(../images/right_arrow.png) no-repeat center center;
+	width:45px;
+	height:45px;
+	background-color:rgba(255,255,255,0.4);
+	border-radius:50%;
+	text-indent:-9999px;
+}
+.rightBtn a{
+	display:block;
+}
+
+/*MainCon05*/
+
+.mainCon05{}
+
+
+.con05Quick{
+	padding:50px 0;
+}
+.con05Quick li{	
+	float:left;
+	margin-right:60px;
+}
+.con05Quick li:last-child{
+	margin-right:0;
+}
+
+
+
+.con05Quick li a{}
+.con05Quick li img{
+	width:255px;
+	
+}
+
+
